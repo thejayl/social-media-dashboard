@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+
+    <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div>
+        <h1 class="title">Social Media Dashboard</h1>
+        <p class="description">Total Followers: 23,004</p>
+      </div>
+      <div class="btn-wrap">
+        <span> Dark Mode </span>
+        <button class="btn-theme"></button>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="main-card-wrap grid--4-col">
+        <div class="main-card card--facebook">
+          <div class="card-top">
+            <img src="./images/icon-facebook.svg" alt="Facebook icon" />
+            <p class="card-id">@nathanf</p>
+          </div>
+          <p class="card-follower__cnt">1987</p>
+          <p class="card-follower__text">Followers</p>
+          <div class="card-follower__status status--up">
+            <img src="./images/icon-up.svg" alt="" />
+            12 Today
+          </div>
+        </div>
+
+        <div class="main-card card--twitter">
+          <div class="card-top">
+            <img src="./images/icon-twitter.svg" alt="Twitter icon" />
+            <p class="card-id">@nathanf</p>
+          </div>
+          <p class="card-follower__cnt">1044</p>
+          <p class="card-follower__text">Followers</p>
+          <div class="card-follower__status status--up">
+            <img src="./images/icon-up.svg" alt="" />
+            99 Today
+          </div>
+        </div>
+        <div class="main-card card--instagram">
+          <div class="card-top">
+            <img src="./images/icon-instagram.svg" alt="Instagram icon" />
+            <p class="card-id">@realnathanf</p>
+          </div>
+          <p class="card-follower__cnt">11k</p>
+          <p class="card-follower__text">Followers</p>
+          <div class="card-follower__status status--up">
+            <img src="./images/icon-up.svg" alt="" />
+            1099 Today
+          </div>
+        </div>
+
+        <div class="main-card card--youtube">
+          <div class="card-top">
+            <img src="./images/icon-youtube.svg" alt="YouTube icon" />
+            <p class="card-id">Nathan F.</p>
+          </div>
+          <p class="card-follower__cnt">8239</p>
+          <p class="card-follower__text">Subscribers</p>
+          <div class="card-follower__status status--down">
+            <img src="./images/icon-down.svg" alt="" />
+            144 Today
+          </div>
+        </div>
+      </div>
+
+      <h2 class="subtitle">Overview - Today</h2>
+      <div class="sub-card-wrap grid--4-col">
+        <div class="sub-card">
+          <div class="sub-card-top">
+            <span class="sub-card__title"> Page views </span>
+            <img src="./images/icon-facebook.svg" alt="Facebook icon" />
+          </div>
+          <div class="sub-card-content">
+            <p class="sub-card__cnt">87</p>
+            <div class="sub-card__status status--up">
+              <img src="./images/icon-up.svg" alt="Arrow up icon" />
+              <p>3%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="sub-card">
+          <div class="sub-card-top">
+            <span class="sub-card__title">Likes</span>
+            <img src="./images/icon-facebook.svg" alt="Facebook icon" />
+          </div>
+          <div class="sub-card-content">
+            <p class="sub-card__cnt">52</p>
+            <div class="sub-card__status status--down">
+              <img src="./images/icon-down.svg" alt="Arrow down icon" />
+              <p>2%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="sub-card">
+          <div class="sub-card-top">
+            <span class="sub-card__title">Likes</span>
+            <img src="./images/icon-instagram.svg" alt="Instagram icon" />
+          </div>
+          <div class="sub-card-content">
+            <p class="sub-card__cnt">5462</p>
+            <div class="sub-card__status status--up">
+              <img src="./images/icon-up.svg" alt="Arrow up icon" />
+              <p>2257%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="sub-card">
+          <div class="sub-card-top">
+            <span class="sub-card__title">Profile Views</span>
+            <img src="./images/icon-instagram.svg" alt="Instagram icon" />
+          </div>
+          <div class="sub-card-content">
+            <p class="sub-card__cnt">52k</p>
+            <div class="sub-card__status status--up">
+              <img src="./images/icon-up.svg" alt="Arrow up icon" />
+              <p>1375%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="sub-card">
+          <div class="sub-card-top">
+            <span class="sub-card__title">Retweets</span>
+            <img src="./images/icon-twitter.svg" alt="Twiiter icon" />
+          </div>
+          <div class="sub-card-content">
+            <p class="sub-card__cnt">117</p>
+            <div class="sub-card__status status--up">
+              <img src="./images/icon-up.svg" alt="Arrow up icon" />
+              <p>303%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="sub-card">
+          <div class="sub-card-top">
+            <span class="sub-card__title">Likes</span>
+            <img src="./images/icon-twitter.svg" alt="Twiiter icon" />
+          </div>
+          <div class="sub-card-content">
+            <p class="sub-card__cnt">507</p>
+            <div class="sub-card__status status--up">
+              <img src="./images/icon-up.svg" alt="Arrow up icon" />
+              <p>553%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="sub-card">
+          <div class="sub-card-top">
+            <span class="sub-card__title">Likes</span>
+            <img src="./images/icon-youtube.svg" alt="YouTube icon" />
+          </div>
+          <div class="sub-card-content">
+            <p class="sub-card__cnt">107</p>
+            <div class="sub-card__status status--down">
+              <img src="./images/icon-down.svg" alt="Arrow down icon" />
+              <p>19%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="sub-card">
+          <div class="sub-card-top">
+            <span class="sub-card__title">Total Views</span>
+            <img src="./images/icon-youtube.svg" alt="YouTube icon" />
+          </div>
+          <div class="sub-card-content">
+            <p class="sub-card__cnt">1407</p>
+            <div class="sub-card__status status--down">
+              <img src="./images/icon-down.svg" alt="Arrow down icon" />
+              <p>12%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </footer> -->
+  </body>
+</html>
